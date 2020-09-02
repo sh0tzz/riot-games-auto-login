@@ -24,6 +24,7 @@ If you downloaded a zip, make sure to extract it, otherwise you may run into sto
 
 You can run the program by running `AutoLogin.pyw`.
 If the extension `.pyw` seems strange, it's used to hide the console window when using a GUI.
+It can be run with normal Python. No need to install anything else.
 More on that here: https://stackoverflow.com/questions/34739315/pyw-files-in-python-program
 
 I recommend you make an easy way for yourself to execute the program, like a desktop shortcut or a taskbar icon.

@@ -20,6 +20,9 @@ More on that here: https://stackoverflow.com/questions/34739315/pyw-files-in-pyt
 I recommend you make an easy way for yourself to execute the program, like a desktop shortcut or a taskbar icon.
 
 **That's it!**
+# How to use
+For the program to log you in, you need to have the Riot Client open on your PC. I can be in the background, but it has to be opened.
+After entering accounts in the program, choose the account you want to log into. Make sure Riot Client sign-in is open. Just select the account from the listbox on the left and press confirm. The program will bring Riot Client to the surface and log in. Make sure you don't move your mouse while the program is logging in, since you can mess up it's mouse movements. Also don't move the Riot Client window.
 # Recommended settings
 It's recommended to use 1920x1080 monitor resolution when using the app, since some values are set as flat values and don't use coefficients.
 If you have trouble with this, you can change the values in `login.py`'s `parse_values` function.

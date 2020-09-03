@@ -21,6 +21,7 @@ I recommend you make an easy way for yourself to execute the program, like a des
 
 **That's it!**
 # How to use
+Video instructions: https://youtu.be/W8Rf1t9zEp0
 For the program to log you in, you need to have the Riot Client open on your PC. I can be in the background, but it has to be opened.
 After entering accounts in the program, choose the account you want to log into. Make sure Riot Client sign-in is open. Just select the account from the listbox on the left and press confirm. The program will bring Riot Client to the surface and log in. Make sure you don't move your mouse while the program is logging in, since you can mess up it's mouse movements. Also don't move the Riot Client window.
 # Recommended settings

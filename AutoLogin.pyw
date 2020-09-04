@@ -1,6 +1,7 @@
 from db_connection import Connection
 from login import AutoLogin
 import tkinter as tk
+import tkinter.messagebox as tkMessageBox
 import pyperclip
 import os
 
@@ -58,6 +59,7 @@ class Login(tk.Frame):
 
 
     def confirm(self):
+        answer = tkMessageBox.askyesno('Stay logged in', 'Do you want to stay logged in?')
         global index
         try:
             index = self.listbox.curselection()[0]
@@ -65,7 +67,10 @@ class Login(tk.Frame):
             self.master.switch_frame(Login)
             return
         login = AutoLogin('password.png', self.data[index][0], self.data[index][1])
-        login.login()
+        if answer:
+            login.login(stay_logged_in = True)
+        else:
+            login.login()
 
     
     def view_info(self):

@@ -29,7 +29,7 @@ class AutoLogin:
     def parse_values(self, password_box):
         self.password_pos = (password_box[0] + 10, password_box[1] + 10)
         self.username_pos = (self.password_pos[0], self.password_pos[1] - 75)
-        self.confirm_pos = (self.password_pos[0] + 120, self.password_pos[1] + 150)
+        self.confirm_pos = (self.password_pos[0] + 120, self.password_pos[1] + 200)
 
     def fill_username(self, username_x, username_y):
         pyautogui.click(username_x, username_y)

@@ -44,7 +44,8 @@ class AutoLogin:
         pyautogui.press('space')
 
     def confirm(self, confirm_x, confirm_y):
-        pyautogui.click(confirm_x, confirm_y)
+        pyautogui.press('tab')
+        pyautogui.press('space')
 
     def go_back(self, current_x, current_y):
         pyautogui.moveTo(current_x, current_y)
